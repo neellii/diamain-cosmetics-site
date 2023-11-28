@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamaint</title>
+    <link rel="icon" type="image/svg" href="./img/logo.svg" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    @@include('blocks/header.html') @@include('blocks/s-home.html')
+    <img class="home__leafs" src="./img/s-home/main-leafs.png" alt="leafs" />
+    <div class="container">
+      <main>
+        <img class="home__berries" src="./img/s-home/main-berries.png" />
+
+        @@include('blocks/s-catalog.html') @@include('blocks/s-promo.html')
+        @@include('blocks/s-sales.html') @@include('blocks/s-statistics.html')
+        @@include('blocks/s-useful.html') @@include('blocks/s-company.html')
+      </main>
+    </div>
+    @@include('blocks/footer.html')
+
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>
