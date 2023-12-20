@@ -1,4 +1,4 @@
-## [Одностраничный сайт](https://neellii.github.io/diamaint-cosmetics-site/) для косметической компании
+## [Лендинг страница](https://neellii.github.io/diamaint-cosmetics-site/) для косметической компании
 - есть адаптив до 300px
 - сборка на gulp
 - БЭМ
